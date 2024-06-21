@@ -43,3 +43,16 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+  
+  body {
+    font-size: 10px;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+  
+  h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+  }
