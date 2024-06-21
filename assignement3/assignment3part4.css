@@ -26,6 +26,10 @@ img {
 nav {
   background-color: #000;
   padding: .5em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
