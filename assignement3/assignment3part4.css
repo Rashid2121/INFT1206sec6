@@ -6,8 +6,8 @@ body {
 }
 
 img {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 .logo {
@@ -21,6 +21,8 @@ img {
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -33,6 +35,8 @@ nav {
 }
 
 nav ul {
+  display: flex;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -48,8 +52,26 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+}
+
+.photos li {
+  padding: 1px; 
 }
 
 .feature {
-    width: 200px;
+  width: 200px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+article {
+  flex: 3;
+  margin-right: 20px;
+}
+
+aside {
+  flex: 1;
 }
